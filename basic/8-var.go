@@ -17,7 +17,7 @@ func demo82() {
 	fmt.Printf("s:%v len(s):%v cap(s):%v\n", s, len(s), cap(s))
 }
 
-func main() {
+func main8() {
 	// demo81()
 	// var numbers4 = [...]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 	// myslice := numbers4[4:6:8]
