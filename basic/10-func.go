@@ -109,8 +109,9 @@ func calc(index string, a, b int) int {
 	return ret
 }
 
-func main() {
+func main102() {
 	// defer 虽然延迟执行 但是会保存现场 记录defer之前变量的值 然后向下执行
+	// defer注册要延迟执行的函数时该函数所有的参数都需要确定其值
 	x := 1
 	y := 2
 	// x = 1 y = 2
