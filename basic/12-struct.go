@@ -62,7 +62,7 @@ func (p *Person2) SetDreams(dreams []string) {
 	// copy(p.dreams, dreams)
 }
 
-func main() {
+func main123() {
 	p1 := Person2{name: "小王子", age: 18}
 	data := []string{"吃饭", "睡觉", "打豆豆"}
 	// p1.SetDreams(data)
